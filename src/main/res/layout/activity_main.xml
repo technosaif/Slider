@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="2"
+        app:sliderStartAutoCycle="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="166dp"
+        android:text="start"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="254dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="170dp"
+        android:text="stop"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="524dp"/>
+
+    <TextView
+        android:id="@+id/mymarquee"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="341dp"
+
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="A car is a means of transport used for traveling from one place to another. This is a four-wheeler used by individuals or family members. We all use cars in our daily lives to go from one place to another for work. A car is a beautiful vehicle that has comfortable seats, AC, and windows. It is basically used to reduce travel distance and time. Due to increased automobile industries, we see different types of cars ranging from simple to the most luxurious ones. Every individual wishes to buy or purchase a car which makes their journey a comfortable and enjoyable experience.
+
+How crazy are people about cars? We have seen kids and adults getting fascinated by cars. Isn’t it? Many people dream about owning a luxurious car in their life. There are more advanced features depending on the price of the car. Nowadays, there are extreme features in cars that can blow your mind. Some of the interesting features of a car include a sunroof, safety belts, airbags, GPS, etc to provide safety to the passengers. These features enhance their driving experience for the better. In this essay on cars, let us check out some of the important features and benefits of a car in our day-to-day lives. "
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="62dp"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
