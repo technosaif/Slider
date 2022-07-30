@@ -1,0 +1,2 @@
+# Slider
+MAD miniproject
